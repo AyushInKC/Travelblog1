@@ -1,4 +1,14 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Londrina+Sketch&family=Oswald:wght@200..700&family=Pacifico&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Londrina+Sketch&family=Oswald:wght@200..700&family=Pacifico&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Galada&family=Londrina+Sketch&family=Oswald:wght@200..700&family=Pacifico&family=Teko:wght@300..700&display=swap');
+
+*{
+    margin: 0 ;
+
+}
 body{
     background-color: black;
     background-image: url("A1.jpg");
@@ -7,5 +17,169 @@ body{
 }
 
 header{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: beige;
+}
+.navpanel {
+  height: 70px;
+  background-color: rgb(244, 250, 249);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  position: fixed; /* Make navbar fixed */
+  top: 0; /* Align to the top of the viewport */
+  z-index: 1000; /* Keep it above other elements */
+}
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15%;
+    width: 100%;
+  
+  }
+  .border {
+    border: 2px solid transparent;
+  }
+  .border:hover {
+    border: 2px solid rgb(241, 249, 9);
+  }
+
+.Home{
+        font-size: 25px;
+        font-weight: 200rem;
+        margin: 15px;
+        color: black;
+        text-decoration: none;
+}
+
+.about{
+    font-size: 25px;
+    font-weight: 200rem;
+    margin: 15px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .contact {
+    font-size: 25px;
+    font-weight: 200rem;
+    margin: 15px;
+    color: black;
+    text-decoration: none;
+  }
+
+
+  .navtext {
+    /* margin-left: 850px; */
+    display: flex;
+  }
+
+.all, .nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+  .symbols{
+    display: flex;
+    justify-content: flex-start; /* Aligns items to the left */
+    align-items: center; /* Center vertically */
+    margin-left: 0; /* Reset left margin */
+    margin-right: 20px; /* Optional: add some space from the right edge */
+  }
+  .symbols div {
+    margin: 0 10px; /* Add space between icons */
+}
+
+#content1{
+    color: rgb(244, 240, 240);
+    /* text-shadow: 100000px black; */
+    text-shadow: 6px 6px 8px black;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 30px;
+}
+#content2{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    color: rgb(132, 30, 59);
+
+}
+#idhashline{
+    background-color: rgb(249, 248, 247);
+    height: 3px;
+    max-width: 38%;
+margin: 0 31% auto;
+border-radius: 1rem;
+box-shadow: 6px 6px 8px black;
+
+}
+.hello{
+    margin-left: 4vw;
+    color: rgb(0, 3, 3);
+    font-family: "Galada", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size:70px ;
+    margin-top: 6vh;
+    /* padding: vh;
+     */
+     margin-bottom: -3vh;
+
+}
+
+.content3{
+    background-color: rgba(244, 235, 235, 0.545);
+    font-size: 18px;
+    font-weight: 500;
+color: rgb(2, 6, 10);
+margin: 0 4vw auto ;
+/* margin-right: 40%;   */
+padding: 1vh 1vw  ;
+}   
+
+/* .imgTraveller {
+  display: flex;           
+  justify-content: flex-end; 
+  margin-top: 20px;        
+  margin-right: 4vw; 
+}
+#img1{
+  display: flex;           
+    justify-content: flex-end;
+    margin-top: 20px;        
+    margin-right: 4vw;
+} */
+ .imgtext{
+  display: flex;
+  text-align: center;
+
+ }
+
+.traveller{
+  width: 40vw;
+  height: 40vh;
+  /* margin-left: 10vw; */
+  margin-right: 10vw;
 
 }
