@@ -1,0 +1,20 @@
+
+        <div class="getinTouch">
+            <p>Get In Touch</p>
+        </div>
+    <div id="info1">
+        <div class="info">
+        <div class="tts">
+            <p id="adres">Address</p>
+            <p id="collegeAdd">Ajay Kumar Garg Engineering College<br>27th KM Milestone, Delhi - Meerut Expy, Ghaziabad, <br>Uttar Pradesh 201015</p>
+        </div>
+        <div class="tts">
+            <p id="ph">Phone</p>
+            <p id="phoneNo">8744052891-93<br>
+                7290034978<br>Enquiry: 1800-200-0777</p>
+        </div>
+        <div class="tts"><p id="em">Email</p>
+            <p id="emails">info@akgec.ac.in<br>
+                ayush23154025@akgec.ac.index</p>
+        </div>
+        </div>
