@@ -14,6 +14,7 @@ body{
     background-image: url("A1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    /* height: 3000px; */
 }
 
 header{
@@ -34,7 +35,10 @@ header{
   top: 0; /* Align to the top of the viewport */
   z-index: 1000; /* Keep it above other elements */
 }
-
+.navpanel a:hover {
+  color: #01070b; /* Change color on hover */
+  text-decoration: underline; /* Optional underline on hover */
+}
   .nav {
     display: flex;
     justify-content: space-between;
@@ -43,21 +47,28 @@ header{
     width: 100%;
   
   }
-  .border {
-    border: 2px solid transparent;
+
+  /* .border { */
+    /* border: 2px solid transparent;
   }
   .border:hover {
+     cursor: pointer; 
+     color: #03568e; 
     border: 2px solid rgb(241, 249, 9);
-  }
+  } */
 
 .Home{
         font-size: 25px;
         font-weight: 200rem;
         margin: 15px;
-        color: black;
+        color: rgb(6, 21, 14);
         text-decoration: none;
 }
 
+.Home :hover{
+  text-decoration: underline;
+  
+}
 .about{
     font-size: 25px;
     font-weight: 200rem;
@@ -72,6 +83,9 @@ header{
     margin: 15px;
     color: black;
     text-decoration: none;
+  }
+  .contact :hover{
+    color: #03568e;
   }
 
 
@@ -112,18 +126,17 @@ header{
     margin-top: 20vh;
     font-size: 30px;
 }
-#content2{
-    font-family: "Fjalla One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 30px;
-    color: rgb(132, 30, 59);
-
+marquee{
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 30px;
+  color: rgb(132, 30, 59);
 }
 #idhashline{
     background-color: rgb(249, 248, 247);
@@ -136,7 +149,7 @@ box-shadow: 6px 6px 8px black;
 }
 .hello{
     margin-left: 4vw;
-    color: rgb(0, 3, 3);
+    color: rgb(0, 102, 61);
     font-family: "Galada", cursive;
     font-weight: 400;
     font-style: normal;
@@ -158,18 +171,6 @@ margin: 0 4vw auto ;
 padding: 1vh 1vw  ;
 }   
 
-/* .imgTraveller {
-  display: flex;           
-  justify-content: flex-end; 
-  margin-top: 20px;        
-  margin-right: 4vw; 
-}
-#img1{
-  display: flex;           
-    justify-content: flex-end;
-    margin-top: 20px;        
-    margin-right: 4vw;
-} */
  .imgtext{
   display: flex;
   text-align: center;
@@ -180,6 +181,38 @@ padding: 1vh 1vw  ;
   width: 40vw;
   height: 40vh;
   /* margin-left: 10vw; */
-  margin-right: 10vw;
+  margin-right: 5vw;
 
 }
+.face :hover{
+  cursor: pointer;
+ color: #316FF6;
+}
+.insta :hover{
+  cursor: pointer;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); 
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.pinterest :hover{
+    cursor: pointer;
+    color:rgb(230, 0, 35);
+}
+.twitter :hover{
+cursor: pointer;
+color: #1da1f2;
+color:  #0d90e0;
+}
+
+.youtube :hover{
+  cursor: pointer;
+  color: red;
+}
+
+.linked :hover{
+   cursor: pointer;
+   color: #0077B5;
+}
+

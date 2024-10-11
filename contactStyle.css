@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Londrina+Sketch&family=Oswald:wght@200..700&family=Pacifico&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Londrina+Sketch&family=Oswald:wght@200..700&family=Pacifico&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Galada&family=Londrina+Sketch&family=Oswald:wght@200..700&family=Pacifico&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0 ;
+}
+body{
+        background-color: #046171f6;
+    /* background-image: url("A1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+header{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: beige;
+}
+.navpanel {
+  height: 70px;
+  background-color: rgb(244, 250, 249);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  position: fixed; /* Make navbar fixed */
+  top: 0; /* Align to the top of the viewport */
+  z-index: 1000; /* Keep it above other elements */
+}
+.navpanel a:hover {
+  color: #01070b; /* Change color on hover */
+  text-decoration: underline; /* Optional underline on hover */
+} 
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15%;
+    width: 100%;
+  
+  }
+  .border {
+    border: 2px solid transparent;
+  }
+  .border:hover {
+    cursor: pointer;
+    color: #12eb0e;
+    /* border: 2px solid rgb(241, 249, 9); */
+  }
+
+.Home{
+        font-size: 25px;
+        font-weight: 200rem;
+        margin: 15px;
+        color: black;
+        text-decoration: none;
+}
+
+.about{
+    font-size: 25px;
+    font-weight: 200rem;
+    margin: 15px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .contact {
+    font-size: 25px;
+    font-weight: 200rem;
+    margin: 15px;
+    color: black;
+    text-decoration: none;
+  }
+
+
+  .navtext {
+    /* margin-left: 850px; */
+    display: flex;
+  }
+
+.all, .nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+  .symbols{
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    margin-left: 0; 
+    margin-right: 20px;
+  }
+  .symbols div {
+    margin: 0 10px; 
+  }
+  .face :hover{
+    cursor: pointer;
+   color: #316FF6;
+  }
+  .insta :hover{
+    cursor: pointer;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); 
+      background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  }
+  .pinterest :hover{
+      cursor: pointer;
+      color:rgb(230, 0, 35);
+  }
+  .twitter :hover{
+  cursor: pointer;
+  color: #1da1f2;
+  color:  #0d90e0;
+  }
+  
+  .youtube :hover{
+    cursor: pointer;
+    color: red;
+  }
+  
+  .linked :hover{
+     cursor: pointer;
+     color: #0077B5;
+  }
+  
+  .getinTouch{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     margin-top: 23vh;
+  }
+
+  .getinTouch p{
+   
+ /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+ font-family: "Protest Strike", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+    font-size: 50px;
+    color: white;
+
+  }
+  .info{
+    width:100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align:center;
+    color: white;
+    margin-top: 12vh;
+
+    
+  }
+
+  #adres{
+    font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+        color: rgb(253, 251, 251);
+    font-size:40px ;
+    margin-bottom: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 2   vh;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); */
+    /* padding-bottom: 1vh; */
+    text-shadow: 0px 0px 10px rgb(16, 15, 15);
+
+  }
+  #ph{
+    font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+    color: rgb(252, 252, 252);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); */
+    text-shadow: 0px 0px 10px rgb(16, 15, 15);
+
+    font-size:40px ;
+    margin-bottom: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+  #em{
+    font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+    color: rgb(250, 243, 243);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); */
+    text-shadow: 0px 0px 10px rgb(16, 15, 15);
+
+    font-size:40px ;
+    margin-bottom: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+  }
+  #collegeAdd{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;   
+    padding-bottom:10px;
+  }
+
+  .adress{
+    font-size: 20px;
+    height: 12vw;
+    width: 31%;
+    background-color: #858a8de5;
+    box-shadow: 0px 4px 8px rgba(6, 34, 216, 0.1);
+    /* padding-top: 1vh; */
+  }
+
+  
+  .phone{
+    font-size: 20px;
+    width: 31%;
+    height: 12vw;
+    background-color: #858a8de5;
+    box-shadow: 0px 4px 8px rgba(6, 34, 216, 0.1);
+  }
+  .email{
+    font-size: 20px;
+    width: 31%;
+    height: 12vw;
+    background-color: #858a8de5;
+    box-shadow: 0px 4px 8px rgba(6, 34, 216, 0.1);
+
+
+  }
+  /* #collegeAdd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-lines: 4;
+  } */

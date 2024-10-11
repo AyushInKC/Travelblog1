@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Londrina+Sketch&family=Oswald:wght@200..700&family=Pacifico&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Londrina+Sketch&family=Oswald:wght@200..700&family=Pacifico&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Galada&family=Londrina+Sketch&family=Oswald:wght@200..700&family=Pacifico&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+*{
+    margin: 0 ;
+
+}
+
+body{
+    background-color: rgb(255, 249, 249);
+   /* background-image: url('desk.jpg'); */
+   
+    /* background-image: url("A1.jpg"); */
+    background-size: cover; 
+     background-repeat:no-repeat;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+ }
+ .navpanel {
+   height: 70px;
+   background-color: rgb(244, 250, 249);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+   width: 100%;
+   position: fixed; /* Make navbar fixed */
+   top: 0; /* Align to the top of the viewport */
+   z-index: 1000; /* Keep it above other elements */
+ }
+ .navpanel a:hover {
+  color: #01070b; /* Change color on hover */
+  text-decoration: underline; /* Optional underline on hover */
+}
+ 
+   .nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-left: 15%;
+     width: 100%;
+   
+   }
+   .border {
+     border: 2px solid transparent;
+   }
+   .border:hover {
+     cursor: pointer;
+     color: #12eb0e;
+     /* border: 2px solid rgb(241, 249, 9); */
+   }
+ 
+ .Home{
+         font-size: 25px;
+         font-weight: 200rem;
+         margin: 15px;
+         color: black;
+         text-decoration: none;
+ }
+ 
+ .about{
+     font-size: 25px;
+     font-weight: 200rem;
+     margin: 15px;
+     color: black;
+     text-decoration: none;
+   }
+ 
+   .contact {
+     font-size: 25px;
+     font-weight: 200rem;
+     margin: 15px;
+     color: black;
+     text-decoration: none;
+   }
+ 
+ 
+   .navtext {
+     /* margin-left: 850px; */
+     display: flex;
+   }
+ 
+ .all, .nav{
+     display: flex;
+     width: 100%;
+     justify-content: space-evenly;
+     align-items: center;
+     text-align: center;
+ }
+   .symbols{
+     display: flex;
+     justify-content: flex-start; /* Aligns items to the left */
+     align-items: center; /* Center vertically */
+     margin-left: 0; /* Reset left margin */
+     margin-right: 20px; /* Optional: add some space from the right edge */
+   }
+   .symbols div {
+     margin: 0 10px; /* Add space between icons */
+ }
+ .face :hover{
+    cursor: pointer;
+   color: #316FF6;
+  }
+  .insta :hover{
+    cursor: pointer;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); 
+      background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  }
+  .pinterest :hover{
+      cursor: pointer;
+      color:rgb(230, 0, 35);
+  }
+  .twitter :hover{
+  cursor: pointer;
+  color: #1da1f2;
+  color:  #0d90e0;
+  }
+  
+  .youtube :hover{
+    cursor: pointer;
+    color: red;
+  }
+  
+  .linked :hover{
+     cursor: pointer;
+     color: #0077B5;
+  }
+
+  .aboutme{
+    margin-top: 120px;
+    padding-top: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 350;
+     font-style: normal;
+     color: #faf4f3db;
+     background-color: #0d90e0;
+  }
+
+  .section{
+    color: antiquewhite;
+    width: 80%;
+    padding: 10px auto;
+    background-color: navy;
+    align-items: center; 
+    text-align: center; 
+    /* margin-left: 10vw; */
+    display: flex;
+    flex-direction: column;
+  }
+  
+.sectionHead{
+  align-items: center; 
+  text-align: center; 
+  /* margin-left: 10vw; */
+  display: flex;
+   
+   
+}
