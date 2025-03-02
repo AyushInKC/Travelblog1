@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <link rel="stylesheet" href="blogs.css"> 
+</head>
+<body>
+    <nav class="nav-panel">
+        <h1>Welcome to Blogs</h1>
+    </nav>
+
+    <div class="actions-container">
+        <button id="seeBlogsBtn" class="action-btn">See Blogs</button>
+        <button id="showCreateBlogFormBtn" class="action-btn">Create Blog</button>
+    </div>
+
+    <div id="createBlogForm" class="form-container" style="display: none;">
+        <h2>Create a New Blog</h2>
+        <input type="text" id="blogTitle" placeholder="Enter Blog Title" required>
+        <textarea id="blogDescription" placeholder="Enter Blog Description" required></textarea>
+        <input type="text" id="blogImage" placeholder="Enter Image URL (optional)">
+        <button onclick="createBlog()" class="submit-btn">Submit</button>
+    </div>
+
+    <div class="search-container">
+        <input type="text" id="searchTitle" placeholder="Enter Blog Title">
+        <button onclick="searchBlog()" class="search-btn">Search</button>
+    </div>
+
+    <div id="blogContainer" class="blog-container"></div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
